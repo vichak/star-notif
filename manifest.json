@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "star-notif",
+  "version": "0.1",
+  "icons": {
+    "128": "star.jpg"
+  },
+  "permissions": ["alarms", "notifications"],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "minimum_chrome_version": "28"
+}
